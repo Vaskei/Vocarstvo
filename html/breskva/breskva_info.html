@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!--  Upotreba najnovijeg rendering engine-a za IE  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Voćarstvo</title>
+    <link rel="shortcut icon" href="../../favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <!-- Vlastiti CSS -->
+    <link href="../../css/moj_css.css" rel="stylesheet">
+    <!-- Fontovi -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <!-- Navigacijska traka -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html">
+                            <div id="vrijeme"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../index.html">Početna</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Jabuka <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../jabuka/jabuka_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../jabuka/jabuka_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Kruška <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../kruska/kruska_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../kruska/kruska_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Breskva <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="breskva_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="breskva_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Trešnja <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../tresnja/tresnja_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../tresnja/tresnja_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" id="randomClick" data-toggle="dropdown" href="#">
+                                    Ostalo <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../ostalo/kalkulator.html">Kalkulator</a></li>
+                                    <li><a href="../ostalo/formular.html">Formular</a></li>
+                                    <li><a href="../ostalo/galerija.html">Galerija</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Random link</li>
+                                    <li id="randomLink"><a></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>        
+    </div>
+
+    <!-- Informacije -->
+    <div class="container">
+        <div class="row">
+            <img class="img-responsive" src="../../slike/breskva/breskva.jpg" />
+            <div class="col-md-12 text-justify">
+                <h2>Breskva</h2>
+                <p><strong>Breskva</strong> je jedna od najpopularnijih voćnih vrsta u svijetu koja potječe iz Kine. Najveći obujam proizvodnje breskve je u Europi gdje su Italija, Grčka, Španjolska i Francuska najveći proizvođači.</p>
+                <p>Breskva u puni rod dolazi u 5. ili 6. godini nakon sadnje, a plod donosi od 12 - 15 godina. U punom rodu prosječan prinos je 30 - 40 t/ha u dobrim agroekološkim uvjetima.</p>
+            </div>
+            <div class="col-md-12">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Sorta</th>
+                            <th>Porijeklo</th>
+                            <th>Dozrijevanje</th>
+                            <th>Opis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Redhaven</td>
+                            <td>SAD</td>
+                            <td>II dekada mjeseca srpnja</td>
+                            <td>Plod je srednje veličine, okruglasto-ovalnog oblika sa zaobljenim ili lagano ispupčenim vrhom. Kožica ploda je umjereno dlakava.</td>
+                        </tr>
+                        <tr>
+                            <td>Suncrest</td>
+                            <td>SAD</td>
+                            <td>II dekada mjeseca srpnja</td>
+                            <td>Plod je velik, čvrst, bogatog okusa. Kožica je jarko crvene boje sa žutim slojem.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-12 text-justify">
+                <h3>Agroekološki uvjeti za uzgoj breskve</h3>
+                <h4>Temperatura</h4>
+                <p>Kritične temperature za breskvu u tijeku dubokoga zimskog mirovanja iznose od -20 do -24 °C, za pupove u otvaranju, otvorene cvjetove i zametnute plodove od 0 do -5 °C. Ako su temperature tijekom siječnja i veljače visoke, biljni sokovi krenu i pupovi se ranije pojave, a tada i cvatnja bude ra­nija. Ukoliko naiđe hladniji val s nižim temperaturama, doći će do ve­likih šteta na voćkama.</p>
+                <h4>Voda</h4>
+                <p>Breskve se uzgajaju uglavnom u umjerenom pojasu s dva tipa klime: kontinentalna klima s oborinama u razdoblju svibanj-listopad, koje su nedovoljne u odnosu na temperature, i sredozemna klima s vlažnim zimama i toplim i suhim ljetima. Voda je potreb­na tijekom kasnog proljeća i ljeta jer u to vrijeme in­tenzivno rastu mladice, plodovi i vrijeme je diferencijacije cvjetnih pupova za sljedeću godinu. Želimo li visoke prirode dobre kakvoće, svakako je potrebno navodnjavanje nasada.</p>
+                <h4>Tlo</h4>
+                <p>Aktivni (oranični) sloj tla mora biti dubok, rastresit, vodopropustan, s dobrim zračnim, vodnim i toplinskim režimom. Tla moraju biti lagana, pjeskovita ili pjeskovito-ilovasta. pH iznosi 6,0 - 7,0. Vrlo je važno da tla na kojima se podiže nasad bresaka na podlozi vinogradarske breskve, nemaju fiziološki aktivnog vapna iznad 5 %.</p>
+                <h3>Izbor položaja za podizanje nasada bresaka</h3>
+                <p>Parcele s južnom ili jugozapadnom ekspozicijom (položajem) u proljeće se brže zagrijavaju i na taj način potiču raniji početak vegetacije, što se može negativno odraziti na prinose u slučaju čestih proljetnih mrazova. Na mjestima gdje su proljetni mrazevi česta pojava, izbor sjeverne strane predstavlja najbolje rješenje. Što se tiče prednosti, plodovi koji se uzgajaju na terenima usmjerenima prema zapadu dozrijevaju nekoliko dana prije ostalih, što omogućuje postizanje više cijene na tržištu.</p>
+                <h3>Priprema tla za sadnju breskve</h3>
+                <p>Prvi posao u pripremi tla za sadnju je ravnanje i planiranje terena. Na taj način se omogućuje otjecanje oborinskih voda zimi i sprječava stagniranje vode u mikrodepresijama, što se nega­tivno odražava na korijenov sustav. Zatim se provodi rigolanje (oranje 60 - 90 cm dubine). Brazda mora biti uska 25 - 35 cm, da bi se lakše postigla odgovara­juća dubina. Rigolanje treba izvesti u ljetnim mjese­cima. Nakon rigolanja poravnaju se naori i ra­zori i površina se tanjuranjem pripremi za sadnju. Poslije toga slijedi markiranje mjesta za sadnju. Uz marker koji označava mjesto sadnje iskopat će se jama dimenzija 50 x 50 x 50 cm. Na dno jame treba staviti odgovarajuću količinu NPK mineralnoga gnojiva formulacije za voćarstvo (5-20-30, 7-14-21 i si.). Kad je sadnica posađena, oko nje se u obliku prstena ot­vori kanal u koji se stavlja zreli stajski gnoj. Sadnice prije sadnje obvezno treba pregledati i za sadnju upotrije­biti samo one koje su dobro razvijene i zdrave.</p>
+                <h3>Izbor podloga breskve</h3>
+                <p>Breskva se cijepi na podlogama više vrsta voćaka: breskve, bajama, hibrida breskve i bajama, šljive i marelice. Najveća srodnost postoji s podlogom breskve. Izbor podloge koja je manje srodna s breskvom opravdana je samo onda kada u tlu ima više aktivnog vapna ili je tlo zbijeno, teško i vlažno te onda kada se breskvik podiže na parceli gdje je prethodno bio na­sad breskve na podlozi vinogradarske breskve. Kod nas se kao generativna podloga za breskve najviše upotrebljavaju sjemenjaci vino­gradarske breskve. Od vegetativnih podloga, vrlo se dobro pokazala podloga križanac breskve i badema (GF 667). Pogodna je i podloga Damas 1869 (križanac Prunus domestica i Prunus spinose).</p>
+                <h3>Izbor uzgojnog oblika breskve</h3>
+                <p>U proizvodnji bresaka primjenjuju se sljedeći uzgojni oblici: kotlasta krošnja (vaza), pravilna i nepravilna palmeta s kosim granama te u novije vrijeme slobodna i poluslobodna palmeta. U nasadima gustog sklopa na slabo bujnoj podlozi (Damas, 1869) primjenjuju se uzgojni oblik vretenasti grm i vitko vreteno.</p>
+                <p>Preporučuje se poluslobodni uzgojni oblik, bez ar­mature jer tada voćka ranije stupa u rodnost, veći je prirod u prvim godinama, manji troškovi investicijskog ulaganja i troškovi proizvodnje. Uzgojni oblik poluslobodne palmete ubraja se u plošne uzgojne oblike. Taj uzgojni oblik razvija skeletne grane u vertikalnoj plohi, što omogućuje uspješniju primjenu mehanizacije za agrotehniku i pomotehniku (rasipanje gnojiva, zaštitu, rezidbu, berbu i odvoz voća). Omo­gućuje da svi dijelovi krošnje budu bolje izloženi sunčevom svjetlu, a time i kvalitetniju zriobu i bolju obojenost plodova.</p>
+                <p>Skelet krošnje sastoji se od središnje grane (provodnice) i bočnih koso smještenih skeletnih grana. Broj etaža (može ih biti 5 - 7) i razmak među njima nije točno određen. Postizanje kosog položaja skeletnih grana postiže se rezidbom u zrelo i u zeleno. Kod toga uzgojnog oblika jednogodišnje sadnice se ne skraćuju, nego se koriste prijevremene grančice duž središnje osi sadnice. Time se omogućuje rod već u drugoj godini nakon sadnje. Visina provodnice se nakon oblikovanja uzgojnog oblika zaustavlja na 3,5 m visine. Sadnica za taj uzgojni oblik mora imati dobro raz­vijen korijenov sustav, mora biti jaka, velika i dobro obrasla prijevremenim grančicama.</p>
+                <h3>Vrijeme i tehnika sadnje breskve</h3>
+                <p>Sadnja se obavlja u rano proljeće ili u jesen. Iskopaju se rupe široke i duboke tek toliko da se sadnica može postaviti u nju. Korijen se prekrije zemljom koja se dobro utisne, doda se stajski gnoj (najbolji goveđi ili ovčji), zatim opet sloj zemlje i obilno se zalije. Sadnicu je potrebno privezati za kolac (potporanj) da bude stabilnija.</p>
+                <h3>Održavanje nasada breskve</h3>
+                <p>Oblikovanje u prvoj godini - Na 50 - 60 cm od zemlje odstrane se sve prijevremene grančice. Ostale prijevre­mene grančice duž provodnice ostave se i na njima će u idućoj godini biti roda. Tijekom proljeća i ljeta izolira se vrh provodnice. Pri zelenoj rezidbi odstrane se sve vodopije i potiče se razvoj skeletnih grana.</p>
+                <p>Oblikovanje u drugoj godini - Za vrijeme zimske rezidbe izolira se provodnica. Zatim se grane prve etaže nastoje rezom dovesti u položaj pod kutom od 45° u odnosu prema glavnoj osi, tj. provodnici. Grane koje rastu u smjeru međuredova, a deblje su od skeletnih grana (koje rastu u pravcu reda), pa i od provodnice, svakako treba odstraniti. Na udaljenosti 90 - 110 cm od prve etaže oblikujemo drugi kat. Tije­kom ljeta obvezatno provodimo zelenu rezidbu. Odstranjuju se sve i vo­dopije i grane koje zasjenjuju budući skelet (oblik) voćke. Takav uzgojni oblik omogućuje već u drugoj godini nakon sadnje rod od oko 4 kg po stablu.</p>
+                <p>Oblikovanje u trećoj godini - Prva je etaža oblikovana pa ako se grane dvaju stabala dodiruju, moraju se skratiti na neku sporednu grančicu. Drugi kat otvaramo također pod kutom od 45° u odnosu prema provodnici. Na udaljenosti 70 - 80 cm od druge etaže oblikujemo treći kat. Grančice između katova koje ne konkuriraju etažama ostavljamo za rod. Tijekom ljeta provodimo zelenu rezidbu. Odstranjujemo sve vodo­pije i konkurentne grane. Tako oblikovana krošnja daje oko 13 kg roda po stablu. Sljedeće zime već je potpuno uređen uzgojni oblik poluslobodne palmete, pa se provodnica mora zaustaviti na 3,5 m visine (jer je preporučeni razmak sadnje između redova 4,5 m).</p>
+                <p>Tijekom uzgoja breskve obavlja se jesenska obrada tla na dubini 25 - 30 cm i naoravanje da se dobije po sredini reda mali kanal koji će omogućiti brzu odvodnju jesensko-zimskih obilnih kiša. U proljeće se malo plićom brazdom provodi odoravanje. Tijekom ljeta nekoliko puta izvrši se kultivacija (tanjuračom ili kultivatorom). Prostor između sadnica prve dvije godine obrađuje se ručno (kopanjem). Poslije će se za suzbijanje korova na tom uskom prostoru između stabala u redu primijeniti herbicidi.</p>
+                <h3>Gnojidba breskve</h3>
+                <p>Najvažniji hranjivi elementi za prehranu breskve su dušik, fosfor i kalij. Tim hranivima tlo mora biti dobro opskrbljeno, kako bi nasad dao visoku i kvalitetnu proizvodnju.</p>
+                <p>Dušik je važan element i dodaje se u proljeće u dva navrata, kad slijedi intenzivni rast mladica i plodova. Kasno unošenje dušika u tlo nepovoljno bi se odrazilo na razvoj voćke zbog produžene vegetacije i nepotpunog dozrijevanja mladica koje bi tijekom jače zime stradale od mraza.</p>
+                <p>Fosfor je element koji posebno utječe na diferencijaciju (zametanje) cvjetnih pupova, zametanje, dozrijevanje i kakvoću plodova. Slabo je pokretan u tlu te se mora unositi u tlo dublje (deponiranjem) u zoni razvoja korijenova sustava i to u jesen.</p>
+                <p>Kalij je element koji posebno utječe na razvoj ploda i sjemenki, na zrenje plodova, obojenost i čvrstoću mesa ploda. Također je sla­bo pokretan u tlu te se dodaje na isti način i u isto vrijeme kao i fosfor.</p>
+                <p>Preporučene orijentacijske količine gnojiva koje se dodaju u tlo:</p>
+                <ul>
+                    <li>Nakon sadnje u proljeće 0,20 kg KAN-a po sadnici i to u dva na­vrata;</li>
+                    <li>U proljeće druge godine nakon sadnje 0,30 kg KAN-a po sadnici u dva navrata;</li>
+                    <li>U jesen druge godine nakon sadnje 0,60 kg po voćki NPK gnojiva voćarske formulacije (5:20:30, 7:14:21 i si.);</li>
+                    <li>U proljeće treće godine 0,50 kg KAN-a po voćki, također u dva navrata;</li>
+                    <li>U jesen treće godine nakon sadnje 1 kg po voćki NPK gnojiva voćarske formulacije.</li>
+                </ul>
+                <p>Nakon toga svake godine se ujesen gnoji sa 700 kg/ha NPK gnojiva i u proljeće 400 kg/ha KAN-a i to u dva navrata. Prva količina od 200 kg dodaje se prije početka vegetacije, a druga od 200 kg nakon cvatnje.</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Vlastiti JavaScript -->
+    <script src="../../js/moj_js.js"></script>
+
+</body>
+</html>

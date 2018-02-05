@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!--  Upotreba najnovijeg rendering engine-a za IE  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Voćarstvo</title>
+    <link rel="shortcut icon" href="../../favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <!-- Lightbox CSS -->
+    <link href="../../css/lightbox.css" rel="stylesheet">
+    <!-- Vlastiti CSS -->
+    <link href="../../css/moj_css.css" rel="stylesheet">
+    <!-- Fontovi -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <!-- Navigacijska traka -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html">
+                            <div id="vrijeme"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../index.html">Početna</a></li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Jabuka <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../jabuka/jabuka_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="jabuka_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Kruška <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../kruska/kruska_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../kruska/kruska_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Breskva <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../breskva/breskva_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../breskva/breskva_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Trešnja <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../tresnja/tresnja_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../tresnja/tresnja_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" id="randomClick" data-toggle="dropdown" href="#">
+                                    Ostalo <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../ostalo/kalkulator.html">Kalkulator</a></li>
+                                    <li><a href="../ostalo/formular.html">Formular</a></li>
+                                    <li><a href="../ostalo/galerija.html">Galerija</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Random link</li>
+                                    <li id="randomLink"><a></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Sorte jabuka -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-justify">
+                <h2>Jabuke - sorte</h2>
+                <p class="text-danger"><strong>Za više informacija o sorti jabuke, pritisnite odgovarajuću sliku:</strong></p>
+                <br />
+            </div>            
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/jabuka/idared_gumb_v1.jpg" data-toggle="collapse" data-target="#idared" />
+            <div id="idared" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Idared</h3>
+                    <p>Idared je američka sorta nastala 1935. godine križanjem sorti Jonathan i Wag(e)ner, a u proizvodnju je uvedena 1942. godine. Viosokoproduktivna je plantažna sorta i neosporno danas najpopularnija jabuka u Hrvatskoj! Zbog krupnog i lijepog ploda, dobrog okusa i neobično dugog skladištenja plodova, vrlo je cijenjena i nije ni čudo što u nas zauzima tako visoko mjesto.</p>
+                    <h4>Okus</h4>
+                    <p>Idared miriše poput parfema. Hrskavo, blijedo – žuto meso je sočno, fine, nježne teksture, slatko – kiselkastog okusa i nenametljive arome. Odlična je jabuka za potrošnju u svježem stanju, voćne salate, kuhanje i pečenje.</p>
+                    <h4>Dozrijevanje</h4>
+                    <p>Plodovi dozrijevaju u II. dekadi mjeseca rujna do prvih desetak dana listopada.</p>
+                    <h4>Plodovi</h4>
+                    <p>Veliki do vrlo veliki (180 – 250 g), okruglog i malo spljoštenog oblika.</p>
+                    <h4>Boja</h4>
+                    <p>Plodovi su temeljne žućkastozelene boje, umjereno ili potpuno prekriveni crvenilom.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/idared_popup_01.jpg" data-lightbox="idared" class="thumbnail">
+                        <img src="../../slike/jabuka/idared_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/idared_popup_02.jpg" data-lightbox="idared" class="thumbnail">
+                        <img src="../../slike/jabuka/idared_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/idared_popup_03.jpg" data-lightbox="idared" class="thumbnail">
+                        <img src="../../slike/jabuka/idared_popup_03.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/jabuka/jonagold_gumb_v1.jpg" data-toggle="collapse" data-target="#jonagold" />
+            <div id="jonagold" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Jonagold</h3>
+                    <p>Jonagold je američka sorta nastala 40 – tih godina prošlog stoljeća, i kao što ime kaže, dobivena je križanjem Golden Deliciousa i Jonathana. U proizvodnju je uvedena 1968. godine i od tada je postala vrlo popularna, posebno u Europi. Jonagold je najbolje od dviju sorata u jednoj!</p>
+                    <h4>Okus</h4>
+                    <p>Medeno sladak okus Golden Deliciousa i živahan kiselkasti okus Jonathana, Jonagold čine izvrsnom slatko-kiselkastom desertnom jabukom. Tekstura njenog mesa naročito je hrskava i sočna. Odlična je jabuka za jelo, voćne salate i pečenje!</p>
+                    <h4>Dozrijevanje</h4>
+                    <p>Plodovi dozrijevaju početkom do sredine rujna.</p>
+                    <h4>Plodovi</h4>
+                    <p>Veliki do vrlo veliki (180-250 g), okruglasto konusnog oblika.</p>
+                    <h4>Boja</h4>
+                    <p>Temeljna boja zelenkastožuta, dospijevanjem postaje žuta, s pokrovnom crvenom bojom.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/jonagold_popup_01.jpg" data-lightbox="jonagold" class="thumbnail">
+                        <img src="../../slike/jabuka/jonagold_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/jonagold_popup_02.jpg" data-lightbox="jonagold" class="thumbnail">
+                        <img src="../../slike/jabuka/jonagold_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/jonagold_popup_03.jpg" data-lightbox="jonagold" class="thumbnail">
+                        <img src="../../slike/jabuka/jonagold_popup_03.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/jabuka/golden_gumb_v1.jpg" data-toggle="collapse" data-target="#golden" />
+            <div id="golden" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Golden Delicious</h3>
+                    <p>Eureka! Pronašao sam je! To su bile riječi Paula Starka iz Rasadnika braće Stark, kada je zagrizao ovu jabuku u voćnjaku Andersona Mullinsa 1914. godine. I stvarno, pravo je zlato pronašao na brežuljcima Zapadne Virginije tog posebnog dana. “S ovom jabukom u ruci ne možete biti sigurni da li pijete šampanjac ili jedete jabuku!“, oduševljeno je izjavio Stark. Od tada pa sve do danas, ova je jabuka stekla zavidnu popularnost među potrošačima te se uzgaja u svim glavnim, toplim uzgojnim područjima svijeta.</p>
+                    <h4>Okus</h4>
+                    <p>To je jabuka koju je vrlo lako zavoljeti. Kožica ploda je nježna i tanka, meso je čvrsto, hrskavo i sočno. Okus je blag, ne napadan, no iznimno sladak; medeno sladak – često stoji u opisu. Odlična je desertna jabuka, no vrlo dobra i za voćne salate, kuhanje, pečenje, i sl.</p>
+                    <h4>Dozrijevanje</h4>
+                    <p>Plodovi dozrijevaju od sredine do kraja mjeseca rujna.</p>
+                    <h4>Plodovi</h4>
+                    <p>Srednje veliki do veliki (150-220 g), konusnog oblika.</p>
+                    <h4>Boja</h4>
+                    <p>Temeljna zelenožuta boja u vrijeme berbe čuvanjem postaje žuta.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/golden_popup_02.jpg" data-lightbox="golden" class="thumbnail">
+                        <img src="../../slike/jabuka/golden_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/golden_popup_03.jpg" data-lightbox="golden" class="thumbnail">
+                        <img src="../../slike/jabuka/golden_popup_03.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/golden_popup_04.jpg" data-lightbox="golden" class="thumbnail">
+                        <img src="../../slike/jabuka/golden_popup_04.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/jabuka/gala_gumb_v1.jpg" data-toggle="collapse" data-target="#gala" />
+            <div id="gala" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Gala</h3>
+                    <p>Ova izuzetno atraktivna jabuka dolazi sa Novog Zelanda, a dobivena je križanjem sorata Golden Delicious (Zlatni Delišes) i Kidd’s Orange Red – vrlo obećavajući početak! Gala sjedinjuje moderno i tradicionalno roditeljstvo. Naime, Kidd’s Orande Red potomak je Cox’s Orange Pippina, staromodnog engleskog favorita i ne trebate se profesionalno baviti ugojem jabuka kako bi shvatili da bi križanje Golden Deliciousa i Cox’s Orange Pippina-a moglo rezultirati skladnim spojem slatkog okusa Golden Deliciousa i bogatog i kompleksnog okusa Cox-a.</p>
+                    <p>Kada ju je probao, redatelj Gospodara Prstenova Peter Jackson tražio je isključivo ovu sortu za cijeli filmski set.</p>
+                    <h4>Okus</h4>
+                    <p>To je vrlo aromatična jabuka. Njeno bijelo meso je hrskavo i sočno, te je onog blagog, slatkog i posebno osvježavajućeg okusa kakav preferiraju izbirljivi sladokusci. Veličina ploda, tanka kožica i naročito blagi okus, čine je pravim izborom za djecu. Idealna je za pite i kolače, a kada je hladna nudi idealnu zamjenu za osvježavajuća pića.</p>
+                    <h4>Dozrijevanje</h4>
+                    <p>Plodovi dozrijevaju od kraja kolovoza do početka rujna.</p>
+                    <h4>Plodovi</h4>
+                    <p>Mali do srednje veliki (150-180 g), okruglasto – konusnog oblika, glatke površine, podjednake veličine.</p>
+                    <h4>Boja</h4>
+                    <p>Temeljna je žuta s pramenovima crvenila na sunčanoj strani – sorta je slabo stabilna, pa postoji niz bolje obojanih crvenih mutanata npr. Gala Must, Royal Gala, Galaxy.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/gala_popup_01.jpg" data-lightbox="gala" class="thumbnail">
+                        <img src="../../slike/jabuka/gala_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/gala_popup_02.jpg" data-lightbox="gala" class="thumbnail">
+                        <img src="../../slike/jabuka/gala_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/gala_popup_04.jpg" data-lightbox="gala" class="thumbnail">
+                        <img src="../../slike/jabuka/gala_popup_04.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/jabuka/granny_gumb_v1.jpg" data-toggle="collapse" data-target="#granny" />
+            <div id="granny" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Granny Smith</h3>
+                    <p>Možda najprepoznatljivija od svih jabuka i sigurno jedna od najpoznatijih, Granny Smith jedan je od najslavnijih izvoznih proizvoda Australije. Otkrivena je u Australiji 60 – ih godina 19. stoljeća kao slučajni sjemenjak na odlagalištu za otpad. Pretpostavlja se da je slučajni hibrid europske divlje i domaće jabuke. Gospođa Maria Ann Smith, koja ju je pronašla, otkrila je da je jabuka višenamjenska, odnosno odlična kako za kuhanje tako i za potrošnju u svježem stanju. Novu je sortu nazvala Granny Smith te je zaslužna za širenje njene popularnosti. Do 60-ih godina 20. stoljeća Granny Smith je postala praktički sinonim za jabuku. Ova pomalo neobična jabuka privlači oko svojom bojom trave, dugo se čuva, te ima svestranost, koju potrošači vole. Kod nas je poznata kao sorta za netipična jabučarska područja, poput Dalmacije, Istre i Baranje.</p>
+                    <h4>Okus</h4>
+                    <p>Okus je naglašeno kiselkast. To je hrskava jabuka, tvrdog, sočnog mesa bijele boje i vrlo oštrog okusa. Ipak, njeno meso dugotrajnim dospijevanjem postaje mekše, a poslužena malo ohlađena može biti vrlo osvježavajuća. Odlična je za potrošnju u svježem stanju, u pitama, a isto tako vrlo dobra za voćne salate (i narezana zadržava svoju boju).</p>
+                    <h4>Dozrijevanje</h4>
+                    <p>Dozrijeva u drugoj dekadi mjeseca listopada do početka studenog.</p>
+                    <h4>Plodovi</h4>
+                    <p>Krupni do vrlo krupni (200 – 250 g), okruglasto – konusnog oblika.</p>
+                    <h4>Boja</h4>
+                    <p>Temeljna tamno zelena boja, boja trave, koja dozrijevanjem postaje svjetlija.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/granny_popup_01.jpg" data-lightbox="granny" class="thumbnail">
+                        <img src="../../slike/jabuka/granny_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/granny_popup_02.jpg" data-lightbox="granny" class="thumbnail">
+                        <img src="../../slike/jabuka/granny_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/jabuka/granny_popup_04.jpg" data-lightbox="granny" class="thumbnail">
+                        <img src="../../slike/jabuka/granny_popup_04.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Lightbox JavaScript -->
+    <script src="../../js/lightbox.min.js"></script>
+    <!-- Vlastiti JavaScript -->
+    <script src="../../js/moj_js.js"></script>
+
+</body>
+</html>

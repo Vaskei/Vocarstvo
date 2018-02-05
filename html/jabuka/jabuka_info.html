@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!--  Upotreba najnovijeg rendering engine-a za IE  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Voćarstvo</title>
+    <link rel="shortcut icon" href="../../favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <!-- Vlastiti CSS -->
+    <link href="../../css/moj_css.css" rel="stylesheet">
+    <!-- Fontovi -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <!-- Navigacijska traka -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html">
+                            <div id="vrijeme"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../index.html">Početna</a></li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Jabuka <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../jabuka/jabuka_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="jabuka_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Kruška <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../kruska/kruska_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../kruska/kruska_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Breskva <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../breskva/breskva_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../breskva/breskva_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Trešnja <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../tresnja/tresnja_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../tresnja/tresnja_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" id="randomClick" data-toggle="dropdown" href="#">
+                                    Ostalo <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../ostalo/kalkulator.html">Kalkulator</a></li>
+                                    <li><a href="../ostalo/formular.html">Formular</a></li>
+                                    <li><a href="../ostalo/galerija.html">Galerija</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Random link</li>
+                                    <li id="randomLink"><a></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>        
+    </div>
+
+    <!-- Informacije -->
+    <div class="container">
+        <div class="row">
+            <img class="img-responsive" src="../../slike/jabuka/jabuka.jpg" />
+            <div class="col-md-12 text-justify">
+                <h2>Jabuka</h2>
+                <p><strong>Jabuka</strong> je temelj voćarske pro­izvodnje i služi kao osnovica za usporedbu isplativosti uzgoja drugih voćaka. Njezini plodovi dozrijevaju od najranijeg ljeta sve do zime. Plodovi zimskih sorata jabuka najcjenjeniji su jer dosežu najbolju kakvoću, a i sezona potrošnje im je zimi kada nema ve­likog izbora drugih vrsta voća. To voće ima gotovo sve što je potrebno ljudskom organizmu: voćne šećere i voćne kiseline, vitamine, minerale, pektine i sasvim čistu vodu.</p>
+            </div>
+            <div class="col-md-12">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Sorta</th>
+                            <th>Porijeklo</th>
+                            <th>Dozrijevanje</th>
+                            <th>Opis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Idared</td>
+                            <td>SAD</td>
+                            <td>II dekada mjeseca rujna</td>
+                            <td>Plod je srednje krupnoće. Kožica je temeljne žuto-zelene boje, potpuno ili djelomično prekrivene sa crvenilom.</td>
+                        </tr>
+                        <tr>
+                            <td>Jonagold</td>
+                            <td>Belgija</td>
+                            <td>Početkom mjeseca rujna</td>
+                            <td>Plod je velik, okruglasto-konusnog oblika, a kožica je tanka, zagasito-crvene boje.</td>
+                        </tr>
+                        <tr>
+                            <td>Golden Delicious</td>
+                            <td>Nizozemska</td>
+                            <td>Sredinom mjeseca rujna</td>
+                            <td>Plod je srednje veličine, blago izduženog i okruglasto-konusnog oblika. Kožica je žute boje, sa blagim rumenilom sa osunčane strane ploda.</td>
+                        </tr>
+                        <tr>
+                            <td>Gala</td>
+                            <td>Italija</td>
+                            <td>Sredinom mjeseca rujna</td>
+                            <td>Plod je mali, okruglog, blago konusnog oblika. Kožica ploda je temeljne žute boje prekrivene narančasto-crvenim prugama.</td>
+                        </tr>
+                        <tr>
+                            <td>Granny Smith</td>
+                            <td>Australija</td>
+                            <td>Sredinom mjeseca listopada</td>
+                            <td>Plod je srednje velik do velik, okruglog, blago izduženog oblika. Kožica ploda je debela i čvrsta, intenzivne zelene boje prekrivena brojnim lenticelama.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-12 text-justify">
+                <h3>Agroekološki uvjeti za uzgoj jabuke</h3>
+                <h4>Temperatura</h4>
+                <p>Jabuka zahtijeva srednje prosječne temperature zraka u vegetaciji 14 - 19 °C. Podnosi vrlo niske tempe­rature zraka od -25 do -28 °C (bez težih posljedica) u vrijeme duboko­g zimskog mirovanja te apsolutne maksimalne tempe­rature do 35 °C (bez težih posljedica, ali ovisno o relativnoj vlazi zraka i vlazi tla). Pogoduje joj umjerena relativna vlaga zraka do 60 % i blaga zračna strujanja u doba povećane vlažnosti zraka ili jakih ljetnih žega, ali joj štete topli i suhi vjetrovi u vrijeme oplodnje. Osjetljiva je na tuču u svako doba vegetacije ali ne i snježni pokrivač u doba velikih hladnoća (pokriveno tlo sprječava smrzavanje korijenja).</p>
+                <h4>Voda</h4>
+                <p>Sustav navodnjavanja preporučljiv je kod intezivnog uzgoja jabuka. Najčešće se upotrebljava sustav »kap po kap«. Najveću potrebu za vodom jabuke imaju u vrijeme cvjetanja, tj. u svibnju.</p>
+                <h4>Tlo</h4>
+                <p>Jabuka zahtjeva duboka tla, pjeskovito-ilovastog sastava, s dovoljno humusa (barem 3 %) i mineralnih hraniva (npr. 10 mg fosfora i 20 mg kalija) te s dobrim poljskim vodnim kapacitetom. Voli tla blago kisele reakcije (pH 5,5 - 6,5) koja nemaju previše fiziološki aktivnog vapna (ne više od 5 %).</p>
+                <h3>Izbor položaja za podizanje nasada jabuke</h3>
+                <p>Zadovoljavajuće nadmor­ske visine terena za uzgoj zimskih jabuka u kontinentalnom području RH bile bi između 120 i 600 m. Bolja kakvoća plodova zimskih sorata jabuka postiže se na sjever­nim nego na južnim ekspozicijama. Najpogodniji nagib terena bio bi oko 4° jer takav pad ipak omogu­ćuje najpovoljniju primjenu strojeva, lako otjecanje površinske vode i suvišne vode tla, dobru osvijetljenost krošnje, dobru regulaciju tem­perature zraka (zimi za iznimno niskih temperatura, u hladno pro­ljeće u vrijeme cvatnje i ljeti za vrijeme jakih žega), a ne izaziva erozi­ju tla.</p>
+                <h3>Priprema tla za sadnju jabuke</h3>
+                <p>Prije dubokog oranja (na dubinu 40 - 50 cm) ili rigolanja potrebno je aplicirati preporučenu količinu fosfornih i kalijevih mineralnih gnojiva, da bi se ta hraniva iz­miješala po čitavoj dubini oranja (tamo gdje će sljedećih godina rasti korijenova mreža). Glavna masa korijenova sistema rasprostire se na dubini do 50 cm, što ovisi o plodnosti tla i dubini propusnog sloja. Duboko oranje (ili rigolanje) obavlja se ljeti (ako se planira jesen­ska ili proljetna sadnja voćaka) ili u jesen (planira li se proljetna sad­nja). Izrigolanu površinu (prije označavanja sadnih mjesta - kolčenja i sadnje) potrebno je potanjurati.</p>
+                <h3>Izbor sorata jabuke</h3>
+                <p>Budući da je u svijetu poznato čak više od 10 000 sorata jabuka, teško je razumjeti da od tako golemog broja nije lako odabrati nekoli­ko najboljih za određeno ekološko područje. Bez obzira na to što je u jabučarskim područjima cijeloga svijeta zastupljen tek neznatan broj istih vodećih zimskih sorata jabuka, ipak se mora voditi računa o sklonostima potrošača koji više vole određene sorte (ili skupine sličnih sorata) jabuka - bilo po krupnoći (vrlo krup­ne, srednje krupne), obliku (okrugle, čunjaste, zvonolike), po boji (crvene, žute, zelene), okusu (slatke, kisele, kiselkastoslatke itd.), mi­risu (vrlo mirisave, nenametljivo mirisave itd.), sočnosti, teksturi itd. U RH se u kontinentalnom dijelu traže jabuke europskog, a u primorskom dijelu američkog okusa.</p>
+                <h3>Vrijeme i tehnika sadnje jabuke</h3>
+                <p>Za sadnju voćaka kopaju se jame dimenzija korijena mlade sadnice. Poslije sadnje (jesenske ili proljetne), prije početka vegetacije, potrebno je sadnice prikratiti na visinu (za pred­viđeni uzgojni oblik) 80 cm od tla. Za predviđeni gusti nasad jabuka s uzgojnim obli­kom »vitko vreteno« predlažu se razmaci sadnje od 3,2 x 1,2 m, odno­sno 2 604 sadnica/ha.</p>
+                <h3>Održavanje nasada jabuke</h3>
+                <p>Rezidba rodnih stabala obavlja se u razdoblju mirovanja voćki i u doba vegetacije. Zimskom rezidbom može se održavati uz­gojni oblik zamišljenih svojstava i usmjeravati uravnoteženi odnos vegetativnog i generativnog rasta. Ljetnom rezidbom uklanjaju se ne­potrebne mladice (time se poboljšava osvijetljenost unutarnjeg dijela krošnje i omogućuje bolja kakvoća prskanja), a hraniva koja se troše za rast nepotrebnih mladica preusmjeravaju se u rast skeleta krošnje, rast plodova i rodnih pupova.</p>
+                <p>Međuredni prostor zatravljuje se tek nakon 2 - 3 godine nakon podizanja nasada. Košnjom (malčiranjem) tratine povećava se sadržaj or­ganske tvari, poboljšavaju fizikalna, kemijska i biološka svojstva tla. Tratina omogućuje bolje upijanje kiše i snijega na padinama. Smanjuju se nagla kolebanja temperature tla, pa je ljeti tlo ispod tratine hladnije (uz visoke temperature tla korijen slabije prima hranu), a zimi toplije (pa teško dolazi do izmrzavanja gornjega korijenja). Otpali plodovi prije berbe i u berbi manje se oštećuju i prljaju. Iz tla ispod tratine smanjuje se gubitak dušika. Poslije košnje trave taj dušik se vraća u tlo, ali tada u organskom obliku. Time se voćnjaci mogu štedljivije gnojiti dušikom, pa ne dolazi do zagađenja vodotokova. Nedostatak je u tome što u razdobljima suše, travni pokrov oduzima potrebnu vlagu korije­nu jabuke. Da bi se to ublažilo, tratina u voćnjaku mora se redovito kositi 6 - 8 puta tijekom vegetacije.</p>
+                <h3>Gnojidba jabuke</h3>
+                <p>Prva godina - Pri sadnji voćaka dodaje se 40 - 60 t/ha zreloga staj­skoga gnojiva u brazde s obje strane reda. Čim korovi počnu nicati ručno se okopa dio tla oko voćki koji se ne može obraditi strojevima. Prije ručnog okopavanja, oko sadnica, u pro­mjeru 30 - 40 cm, rasipa se KAN 27% u količini od 10 dag po svakome sadnome mjestu. Drugo prihranjivanje voćaka obavlja se početkom lipnja, na istoj površini i istom vrstom i količinom mineralnoga gnojiva. Potkraj kolovoza u međuredove voćnjaka rasipa se 500 kg/ha mineralnoga gnojiva KAN 27%. Nakon toga slijedi oranje, tanjuranje i drljanje međurednog prostora kako bi se mogla obaviti sjetva uljane repice (za zelenu gnojidbu).</p>
+                <p>Druga godina - Prije početka vegetacije obavlja se prihrana dušikom (15 dag KAN 27% po stablu). Međuredni prostor se zaorava kada uljana repica bude u punoj cvatnji. Drugo prihranjivanje dušikom obavlja se po­četkom svibnja istom vrstom i količinom gnojiva kao i u prvom prihranjivanju.</p>
+                <p>Treća godina - Prihranjivanje dušikom obavlja se mjesec dana prije cvat­nje jabuka (u prvih deset dana ožujka), i to traktorskim rasipačem, s 200 kg/ha KAN-a 27%. Drugo prihranjivanje dušikom obavlja se također strojem, neposredno po­slije cvatnje (krajem travnja) s 200 kg/ha KAN-a 27%. U jesen, poslije berbe plodova, aplicira se mineralno gnojivo NPK 5:20:30, s 800 kg/ha.</p>
+                <p>Četvrta godina - Prvo prihranjivanje dušikom obavlja se mjesec dana prije cvat­nje jabuka, a drugo prihranjivanje poslije cvatnje i to oba sa 150 kg/ha KAN-a 27 %.</p>
+                <h3>Berba i skladištenje jabuke</h3>
+                <p>Dva su stupnja zrelosti plodova jabuka i podjednako su važna za određivanje vremena berbe:</p>
+                <ol>
+                    <li>Fiziološka zrelost ili dozrelost - nastupa kad je plod jabuke najkrupniji, a sjemenke mogu u povoljnim uvjetima proklijati.</li>
+                    <li>Tehnološka zrelost ili dospjelost ploda - nastupa kad plodovi postignu najbolje karakteristike potrebne za daljnju namjenu (konzumacija, čuvanje u skladištu, čuvanje u hladnjači ili prerada).</li>
+                </ol>
+                <p>Za različite sorte jabuka potrebni su različiti uvjeti čuvanja. Preporučuje se čuvanje plodova jabuka u hladnjači s kontroliranom atmosferom (0 - 5 °C, koncentracija CO2 2 - 4 %, koncentracija O2 1 % i relativna vlaga zraka 90 - 92 %). U takvim uvjetima jabuka se može čuvati 6 - 12 mjeseci. Ako plodovi jabuka stoje 4 dana na temperaturi 20 °C, smanjuje im se vrijeme čuvanja u hladnjači za jedan mjesec. Plodovi namijenjeni duljem čuvanju moraju biti zdravi (bez znakova fiziološkog oboljenja) i što ujednačeniji. Ako ne postoji mogućnost čuvanja jabuka u hladnjači, onda ih je potrebno potopiti u otopinu bogatu kalcijem.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Vlastiti JavaScript -->
+    <script src="../../js/moj_js.js"></script>
+
+</body>
+</html>

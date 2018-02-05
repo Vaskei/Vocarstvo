@@ -1,0 +1,124 @@
+
+body {
+    /*background-color: #e6e2d3;*/
+    background: url(../slike/voce.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.row {
+    background-color: white;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: #3e4444;
+    border-color: #3e4444;
+}
+
+.navbar-brand {
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.lead {
+    color: #82b74b;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -0.2rem;
+}
+
+.leadtext {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2.6rem;
+    text-align: justify;
+}
+
+.embed-responsive {
+    margin-bottom: 15px;
+}
+
+.voce h2 {
+    color: #82b74b;
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 25px;
+}
+
+#mojThumbnail {
+    position: relative;
+}
+
+#mojCaption {
+    width:100%;
+    bottom: .3rem;
+    position: absolute;
+}
+
+#mojCaption h4 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+    Kalkulator
+*/
+#kalk {
+    width: 300px;
+    border: 2px solid;
+    background-color: white;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.kalkgumb {
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    width: 20%;
+    margin: 2%;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+}
+
+.kalkgumb:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.kalkgumbrez {
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    width: 96%;
+    margin: 2%;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+}
+
+.kalkgumbrez:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.rezultat_prozor {
+    width: 96%;
+    height: 40px;
+    margin: 20px auto;
+    font-size: 30px;
+    border: solid 2px;
+}
+

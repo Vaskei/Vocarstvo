@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!--  Upotreba najnovijeg rendering engine-a za IE  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Voćarstvo</title>
+    <link rel="shortcut icon" href="../../favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <!-- Vlastiti CSS -->
+    <link href="../../css/moj_css.css" rel="stylesheet">
+    <!-- Fontovi -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <!-- Navigacijska traka -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html">
+                            <div id="vrijeme"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../index.html">Početna</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Jabuka <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../jabuka/jabuka_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../jabuka/jabuka_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Kruška <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="kruska_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="kruska_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Breskva <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../breskva/breskva_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../breskva/breskva_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Trešnja <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../tresnja/tresnja_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../tresnja/tresnja_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" id="randomClick" data-toggle="dropdown" href="#">
+                                    Ostalo <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../ostalo/kalkulator.html">Kalkulator</a></li>
+                                    <li><a href="../ostalo/formular.html">Formular</a></li>
+                                    <li><a href="../ostalo/galerija.html">Galerija</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Random link</li>
+                                    <li id="randomLink"><a></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>        
+    </div>
+
+    <!-- Informacije -->
+    <div class="container">
+        <div class="row">
+            <img class="img-responsive" src="../../slike/kruska/kruska.jpg" />
+            <div class="col-md-12 text-justify">
+                <h2>Kruška</h2>
+                <p><strong>Kruške</strong> pripadaju porodici ruža (Rosaceae) i srodne su jabukama i dunjama. S obzirom da postoji oko tisuću sorti, razlikujemo ih po veličini, obliku, boji, okusu kao i dužini skladištenja. Dobar su izvor dijetalnih vlakana koja ljekovito djeluju najprije na zdravlje probavnog, a zatim i kardiovaskularnog sustava.</p>
+                <p>Uzgajaju se na plantažama, u vrtovima i voćnjacima, a u divljem obliku rastu u šumama. Cvatnja kruške traje 20 dana, od travnja do svibnja, u kojem vremenu cvjetovi daju obilje nektara i cvjetnog praha. Količina meda ovisi o broju stabala i iznosi oko 20 kg.</p>
+            </div>
+            <div class="col-md-12">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Sorta</th>
+                            <th>Porijeklo</th>
+                            <th>Dozrijevanje</th>
+                            <th>Opis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Viljamovka</td>
+                            <td>Ujedinjeno Kraljevstvo</td>
+                            <td>Krajem kolovoza</td>
+                            <td>Plod je velik, nepravilnog, izduženog oblika, zelene boje, koja pri zrenju prelazi u žutu.</td>
+                        </tr>
+                        <tr>
+                            <td>Lipanjska Ljepotica</td>
+                            <td>Italija</td>
+                            <td>Krajem lipnja</td>
+                            <td>Plod je sitan do srednje krupan, izduženog kruškolikog oblika, svijetlo žute boje sa riđastim mrljama.</td>
+                        </tr>
+                        <tr>
+                            <td>Trevuška</td>
+                            <td>Francuska</td>
+                            <td>Početak kolovoza</td>
+                            <td>Plod je srednje veličine, žut s malim otočićima hrđe, te crvenilom na osunčanoj strani.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-12 text-justify">
+                <h3>Agroekološki uvjeti za uzgoj</h3>
+                <h4>Temperatura</h4>
+                <p>Kruška cvate prije jabuke te je mogućnost proljetne pozebe znatno veća, a osim toga, osjetljivija je na apsolutne temperaturne minimu­me zimi. U samoj cvatnji temperature od -1 °C mogu potpuno uništiti urod jer je to naj­osjetljivija fenološka faza. Kada prođe faza pune cvatnje, tj. kad su kruške ocvale, temperatura od -1 °C neće potpuno uništiti urod, ali će takvi plodovi imati znatno nižu tržišnu vrijednost jer su vrlo često nepravilni (krumpirasti) i u pravilu imaju smeđi pojas od mraza. Tijekom vegetacije može podnijeti temperaturu i do 34 °C.</p>
+                <h4>Voda</h4>
+                <p>Potrebe kruške za vodom su puno skromnije od potreba jabuke zbog dubljeg korijena koji može crpiti vodu i iz dubljih slojeva tla. Tijekom lipnja i srpnja, u fazama intenzivnog rasta ploda i mladice, kruška zahtijeva najviše vode.</p>
+                <h4>Tlo</h4>
+                <p>Za svoj uzgoj zahtijeva dublja tla, dobro drenirana, lakše pjeskovita, ilovasta ili ilovasto-pjeskovita. Tla trebaju biti neutralne do slabo kisele reakcije (pH od 5,5 do 7,0), bogata humusom i hranjivim elementima.</p>
+                <h3>Priprema tla za sadnju jabuke</h3>
+                <p>Odabranu površinu, koja je svojim položajem i svojstvima tla do­bra za uzgoj krušaka, meliorativno se pognoji na temelju obavlje­ne kemijske analize tla i nakon toga duboko obradi. Obrada znatno ovisi o tipu tla. Ako je tlo dobrih fizikalnih svojstava, a koja često u nižim horizontima imaju povećan sadržaj kalcija, obradom se ni u ko­jem slučaju ne smije ići preduboko, i to zbog dva razloga: prvo, da se di­jelovi horizonta s povećanim sadržajem kalcija ne izoru na po­vršinu, i drugo, takvom pripremom stvaraju se uvjeti za dublje prokorjenjivanje. Takva tla se pripremaju oranjem do dubine 40 do 50 cm. Lošija, teža tla, loših fizikalnih osobina prije oranja potrebno je po­drivati na dubinu 70 do 80 cm. Najpovoljnije je duboku obradu obaviti tijekom kolovoza, te u tak­voj gruboj brazdi tlo ostaviti do početka studenog, dok se ne nabave sadnice. Prije sadnje, tlo se potanjura i iskolče se redovi.</p>
+                <h3>Izbor podloga</h3>
+                <p>Sve sorte krušaka nema­ju zadovoljavajuću kompatibilnost s dunjom, te se one moraju cijepiti s međupodlogom. Kruška se može cijepiti na podlogu divlje kruške i na različite tipo­ve dunje. Na podlozi divlje kruške manje je osjetljiva na lošija tla, ali su stabla bujnija, a i plodovi su znatno lošije kakvoće. Kao podlogu koriste se tipovi dunje: EMA, EMC, BA 29, Adam's, Sydo i OHF 333. Prednost dajemo podlogama EMA i BA 29, a EMC treba služiti samo za najbrojnije sorte. Sorte loše kompatibilnosti s dunjom (npr. Viljemovka) obvezno treba cijepiti s međupodlogom. Kao međupodloga mogu poslužiti sorte Ge-lertova, Pastorčica i Hardenpontova.</p>
+                <h3>Izbor sorata</h3>
+                <p>Odabir sorte ovisi o ekološkim uvjetima i mogućnosti plasmana. Rane sorte mogu se uzgajati u svim kruškarskim područjima, ali prednost se daje onim područjima gdje je veća mogućnost plasmana da bi se izbjegao nepotreban skup prijevoz. Osim toga, najranije sorte su i najosjetljivije na prijevoz, a i vijek skladištenja im je najkraći. Kasne zimske sorte zahtijevaju dovoljno sunčanih dana da bi mo­gle postići visoku kakvoću plodova, te se mogu uzgajati samo u toplim krajevima južne RH, istočne Slavonije i Baranje. Pri tome posebnu pažnju treba posvetiti navodnjavanju jer su to krajevi gdje tijekom ljeta obično vlada suša. Sorte srednje dobi dozrijevanja mogu se uzgajati na povoljnim lo­kacijama svih naših područja, a jedini ograničavajući čimbenik jest mogućnost plasmana.</p>
+                <h3>Izbor uzgojnog oblika</h3>
+                <p>Razmak između redova ovisi o bujnosti podloge i sorte, ali za su­vremene uzgoje, uz dobru voćarsku mehanizaciju, taj razmak ne tre­ba biti veći od 3,2 m. Razmak unutar redova ovisi o sorti, ali načelno može se reći da je za većinu sorata dovoljno 1,2 do 1,5 m. Sve to odnosi se na uzgojni oblik, a kod kruške su najčešći vitki vretenasti grm i vitko vreteno.</p>
+                <h3>Vrijeme i tehnika sadnje</h3>
+                <p>Iskopa se jama za sadnicu. Sadnicu se postavlja 3-5 cm daleko od kolca. Na korijen se stavlja sloj rahle zemlje debljine 5 - 8 cm koji se dobro nagazi te 20 - 30 kg zrelog stajskog gnoja. Na stajski se gnoj opet stavlja zemlja te se oko voćke oblikuje zdjelica za bolje zadržavanja vode. Dubina sadnje je kao u rasadniku, tj. spojno je mjesto barem 10 cm iznad razine tla.</p>
+                <h3>Održavanje nasada</h3>
+                <p>U međurednom prostoru održava se tratina koja se kosi 6 - 8 puta u vegetaciji i nezakorovljen zaštitni pojas (primjena herbicida). Ako u voćnjaku nema sustav za navodnjavanje tlo se održava stalnom međurednom obradom (u jesen rotacijskom motikom, a ljeti oranje).</p>
+                <h3>Gnojidba</h3>
+                <p>Odmah nakon sadnje ili najkasnije do kraja proljeća mladi se voćnjak pognoji stajskim gnojivom. Za prilično veliku gustoću sad­nje preporučuju se dva načina gnojidbe:</p>
+                <ol>
+                    <li>Pojedinačna gnojidba svake sadnice s 20 - 30 kg stajskoga gnoja oko sadnice.</li>
+                    <li>Odoravanjem brazde oko 70 cm od reda sadnica, te zaoravanjem gnojiva koji se stavlja u odoranu brazdu.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Vlastiti JavaScript -->
+    <script src="../../js/moj_js.js"></script>
+
+</body>
+</html>

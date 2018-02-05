@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!--  Upotreba najnovijeg rendering engine-a za IE  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Voćarstvo</title>
+    <link rel="shortcut icon" href="../../favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <!-- Lightbox CSS -->
+    <link href="../../css/lightbox.css" rel="stylesheet">
+    <!-- Vlastiti CSS -->
+    <link href="../../css/moj_css.css" rel="stylesheet">
+    <!-- Fontovi -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <!-- Navigacijska traka -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html">
+                            <div id="vrijeme"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../index.html">Početna</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Jabuka <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../jabuka/jabuka_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../jabuka/jabuka_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Kruška <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="kruska_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="kruska_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Breskva <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../breskva/breskva_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../breskva/breskva_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Trešnja <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../tresnja/tresnja_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../tresnja/tresnja_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" id="randomClick" data-toggle="dropdown" href="#">
+                                    Ostalo <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../ostalo/kalkulator.html">Kalkulator</a></li>
+                                    <li><a href="../ostalo/formular.html">Formular</a></li>
+                                    <li><a href="../ostalo/galerija.html">Galerija</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Random link</li>
+                                    <li id="randomLink"><a></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Sorte kruške -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-justify">
+                <h2>Kruške - sorte</h2>
+                <p class="text-danger"><strong>Za više informacija o sorti kruške, pritisnite odgovarajuću sliku:</strong></p>
+                <br />
+            </div>            
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/kruska/viljamovka_gumb_v1.jpg" data-toggle="collapse" data-target="#viljamovka" />
+            <div id="viljamovka" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Viljamovka</h3>
+                    <p>Plod viljamovke zri krajem kolovoza i spreman je za berbu. Neke osobine ploda kruške jesu te da su pogodne za sortiranje i pakiranje mehaničkim putem, da dobro podnose rukovanje i prijevoz, da su prijatnog okusa i arome, a one za preradu moraju biti dovoljno tvrde, da im meso bude pogodno za sjeckanje.</p>
+                    <p>Viljamovka ima krupan plod mase oko 200 grama. Nepravilnog je, izduženog oblika, zelene boje, koja pri zrenju prelazi u žutu. Neravne je pokorice, kvrgava sa tamnim pjegama. Meso je slatko, mekano, sočno, hranjivo i ljekovito. Od njega se mogu praviti svakakve poslastice, kompoti, sokovi, kašice, marmelade. Bere se 2 nedjelje prije nego sazri i može se držati u hladnjaku i do 5 mjeseci.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/viljamovka_popup_01.jpg" data-lightbox="viljamovka" class="thumbnail">
+                        <img src="../../slike/kruska/viljamovka_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/viljamovka_popup_03.jpg" data-lightbox="viljamovka" class="thumbnail">
+                        <img src="../../slike/kruska/viljamovka_popup_03.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/viljamovka_popup_04.jpg" data-lightbox="viljamovka" class="thumbnail">
+                        <img src="../../slike/kruska/viljamovka_popup_04.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/kruska/lipanjska_gumb_v1.jpg" data-toggle="collapse" data-target="#lipanjska" />
+            <div id="lipanjska" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Lipanjska Ljepotica</h3>
+                    <p>Plod je sitan, masa oko 60g. Pravilnog kruškastog oblika, ravne površine, a sa sunčane strane blago crvena. Meso je bijelo slatko, nedovoljno sočno. Drvo je srednje bujno. Obilno rodi. Osjetljiva je na kasne proljetne mrazeve u cvatnji pa ponekad podbaci u urodu. Plodovi po zrenju brzo trunu. Zahtjeva kraću rezidbu i to po otvaranju cvijeta. Diploidna je sorta.</p>
+                    <h4>Dozrijevanje</h4>
+                    <p>Krajem lipnja.</p>
+                    <h4>Oblik</h4>
+                    <p>Izdužen kruškolik oblik, svjetložute boje s lijepim crvenilom sa sunčane strane.</p>
+                    <h4>Meso</h4>
+                    <p>Slatko, sočno i aromatično.</p>
+                    <h4>Težina ploda</h4>
+                    <p>Oko 60 grama.</p>
+                    <h4>Oprašivači</h4>
+                    <p>Rana Moretinijeva, Viljamovka, Conference...</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/lipanjska_popup_01.jpg" data-lightbox="lipanjska" class="thumbnail">
+                        <img src="../../slike/kruska/lipanjska_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/lipanjska_popup_02.jpg" data-lightbox="lipanjska" class="thumbnail">
+                        <img src="../../slike/kruska/lipanjska_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/lipanjska_popup_03.jpg" data-lightbox="lipanjska" class="thumbnail">
+                        <img src="../../slike/kruska/lipanjska_popup_03.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>        
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/kruska/trevuska_gumb_v1.jpg" data-toggle="collapse" data-target="#trevuska" />
+            <div id="trevuska" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Trevuška</h3>
+                    <p>To je stara francuska sorta, raširena u mnogim voćarskim zemljama, a i na našim prostorima. Sazrijeva početkom kolovoza.</p>
+                    <p>Plod je srednje krupan, težak prosječno 140 grama, ovalnog kruškastog oblika, slamasto žut, sa sunčane strane preliven svijetlim crvenilom, koje ga čini vrlo lijepim. Meso ploda je sočno, topivo i fino, osvježavajućeg slatko-nakiselog ukusa i prijatne arome.</p>
+                    <p>Stablo je slabo do srednje bujno i otporno na mraz i sušu. S dunjom nema najbolji afinitet. Cvjeta srednje rano i diploidna je sorta. Dobro je oplođavaju „šarena julska“ i „rana moretinijeva“. Izrazito je partenokarpna i oplodnja može biti bez oprašivača. Zbog partenokarpnosti rađa obilno i u godinama s nepovoljnim vremenskim prilikama u periodu cvjetanja.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/trevuska_popup_01.jpg" data-lightbox="trevuska" class="thumbnail">
+                        <img src="../../slike/kruska/trevuska_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/trevuska_popup_02.jpg" data-lightbox="trevuska" class="thumbnail">
+                        <img src="../../slike/kruska/trevuska_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/kruska/trevuska_popup_03.jpg" data-lightbox="trevuska" class="thumbnail">
+                        <img src="../../slike/kruska/trevuska_popup_03.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Lightbox JavaScript -->
+    <script src="../../js/lightbox.min.js"></script>
+    <!-- Vlastiti JavaScript -->
+    <script src="../../js/moj_js.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!--  Upotreba najnovijeg rendering engine-a za IE  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Voćarstvo</title>
+    <link rel="shortcut icon" href="../../favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <!-- Lightbox CSS -->
+    <link href="../../css/lightbox.css" rel="stylesheet">
+    <!-- Vlastiti CSS -->
+    <link href="../../css/moj_css.css" rel="stylesheet">
+    <!-- Fontovi -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <!-- Navigacijska traka -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html">
+                            <div id="vrijeme"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../index.html">Početna</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Jabuka <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../jabuka/jabuka_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../jabuka/jabuka_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Kruška <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../kruska/kruska_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../kruska/kruska_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Breskva <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="breskva_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="breskva_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Trešnja <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../tresnja/tresnja_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../tresnja/tresnja_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" id="randomClick" data-toggle="dropdown" href="#">
+                                    Ostalo <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../ostalo/kalkulator.html">Kalkulator</a></li>
+                                    <li><a href="../ostalo/formular.html">Formular</a></li>
+                                    <li><a href="../ostalo/galerija.html">Galerija</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Random link</li>
+                                    <li id="randomLink"><a></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Sorte breskve -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-justify">
+                <h2>Breskve - sorte</h2>
+                <p class="text-danger"><strong>Za više informacija o sorti breskve, pritisnite odgovarajuću sliku:</strong></p>
+                <br />
+            </div>            
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/breskva/redhaven_gumb_v1.jpg" data-toggle="collapse" data-target="#redhaven" />
+            <div id="redhaven" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Redhaven</h3>
+                    <p>Stablo je srednje bujno i vrlo rodno. Plod je srednje veličine, okruglasto-ovalnog oblika sa zaobljenim ili lagano ispupčenim vrhom. Kožica ploda je umjereno dlakava, intenzivno žute boje, preko koje je prevučena dopunska, briljantno-crvena boja na 70 do 90% površine ploda. Meso ploda je intenzivno žute boje, a crveno u blizini koštice, čvrsto, sočno, slatko-kiselkasta okusa, ugodne arome i mirisa. Plodovi vrlo dobro podnose transport.</p>
+                    <h4>Porijeklo</h4>
+                    <p>SAD</p>
+                    <h4>Dozrijevanje</h4>
+                    <p>II dekada mjeseca srpnja.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/breskva/redhaven_popup_01.jpg" data-lightbox="redhaven" class="thumbnail">
+                        <img src="../../slike/breskva/redhaven_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/breskva/redhaven_popup_02.jpg" data-lightbox="redhaven" class="thumbnail">
+                        <img src="../../slike/breskva/redhaven_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/breskva/redhaven_popup_03.jpg" data-lightbox="redhaven" class="thumbnail">
+                        <img src="../../slike/breskva/redhaven_popup_03.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+
+        <div class="row">
+            <img class="img-responsive" src="../../slike/breskva/suncrest_gumb_v1.jpg" data-toggle="collapse" data-target="#suncrest" />
+            <div id="suncrest" class="collapse">
+                <div class="col-xs-12 text-justify">
+                    <h3>Suncrest</h3>
+                    <p>Hibrid nastao spajanjem sorti Alamar i Gold Prah. Priznata je 1959. godine (USDA, Fresno, Kalifornija). Stablo je srednje do veoma bujno. Sorta koja daje visoke prinose, i do određene mjere dobro podnosi niske temperature.</p>
+                    <p>Plod je krupan, okruglastog oblika, osnovne narančasto - crvene boje prekrivene sjajnom crvenom na oko 80 %, malo prekrivena finim dlačicama; meso je intenzivne žute boje s crvenim prugama uz košticu, čvrsto i otporno, ugodnog okusa, koštica se odvaja od mesa.</p>
+                    <h4>Porijeklo</h4>
+                    <p>SAD</p>
+                    <h4>Dozrijevanje</h4>
+                    <p>II dekada mjeseca srpnja.</p>
+                </div>                
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/breskva/suncrest_popup_01.jpg" data-lightbox="suncrest" class="thumbnail">
+                        <img src="../../slike/breskva/suncrest_popup_01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/breskva/suncrest_popup_02.jpg" data-lightbox="suncrest" class="thumbnail">
+                        <img src="../../slike/breskva/suncrest_popup_02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <a href="../../slike/breskva/suncrest_popup_03.jpg" data-lightbox="suncrest" class="thumbnail">
+                        <img src="../../slike/breskva/suncrest_popup_03.jpg" />
+                    </a>
+                </div>
+            </div>
+            <br />
+        </div>
+    </div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Lightbox JavaScript -->
+    <script src="../../js/lightbox.min.js"></script>
+    <!-- Vlastiti JavaScript -->
+    <script src="../../js/moj_js.js"></script>
+
+</body>
+</html>

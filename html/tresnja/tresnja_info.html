@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!--  Upotreba najnovijeg rendering engine-a za IE  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Voćarstvo</title>
+    <link rel="shortcut icon" href="../../favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <!-- Vlastiti CSS -->
+    <link href="../../css/moj_css.css" rel="stylesheet">
+    <!-- Fontovi -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+
+</head>
+
+<body>
+    <!-- Navigacijska traka -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html">
+                            <div id="vrijeme"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../index.html">Početna</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Jabuka <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../jabuka/jabuka_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../jabuka/jabuka_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Kruška <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../kruska/kruska_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../kruska/kruska_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Breskva <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../breskva/breskva_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../breskva/breskva_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Trešnja <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="tresnja_info.html">Općenito</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="tresnja_sorte.html">Sorte</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" id="randomClick" data-toggle="dropdown" href="#">
+                                    Ostalo <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../ostalo/kalkulator.html">Kalkulator</a></li>
+                                    <li><a href="../ostalo/formular.html">Formular</a></li>
+                                    <li><a href="../ostalo/galerija.html">Galerija</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Random link</li>
+                                    <li id="randomLink"><a></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>        
+    </div>
+
+    <!-- Informacije -->
+    <div class="container">
+        <div class="row">
+            <img class="img-responsive" src="../../slike/tresnja/tresnja.jpg" />
+            <div class="col-md-12 text-justify">
+                <h2>Trešnja</h2>
+                <p><strong>Trešnja</strong> se uzgaja za potrošnju u svježem stanju, manji broj uzgaja se samo radi prerađevina (kompoti, džemo­vi, marmelade, sirovina za konditorsku industriju), a najmanje se uzgajaju isključivo za proizvodnju likera ili rakija. Jednom ubrane trešnje više ne dozrijevaju, pa se moraju brati zrele. Svježe su trešnje sjajne, pune i sa žarko zelenim peteljkama. Jako su praktične jer im osim pranja ne treba gotovo nikakva priprema i najbolje su svježe. Za davanje ploda potrebno im je 6 - 8 godina. Razlikujemo trešnje s mekanim mesom ploda i trešnje s čvrstim mesom ploda (hrustavke).</p>
+            </div>
+            <div class="col-md-12">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Sorta</th>
+                            <th>Porijeklo</th>
+                            <th>Dozrijevanje</th>
+                            <th>Opis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Regina</td>
+                            <td>Njemačka</td>
+                            <td>Krajem mjeseca lipnja</td>
+                            <td>Plod je krupan do vrlo krupan, okruglasto-srcolika oblika, izrazito tamno crvene boje.</td>
+                        </tr>
+                        <tr>
+                            <td>Bing</td>
+                            <td>SAD</td>
+                            <td>Krajem mjeseca lipnja</td>
+                            <td>Plodovi sorte su krupni, tamno-crvene boje. Meso je čvrsto i hrskavo, slatko i sočno, veoma lijepe arome.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-12 text-justify">
+                <h3>Agroekološki uvjeti za uzgoj breskve</h3>
+                <h4>Temperatura</h4>
+                <p>Trešnja je izrazit heliofit (traži mnogo svjetla i topline). Cvatnja joj počinje kad prosječne dnevne temperature dosegnu 10 - 11 °C, a najbolje se oplođuju pri pro­sječnoj dnevnoj temperaturi između 15 i 20 °C. Trešnja dobro podnosi vrlo niske temperature u doba dubokog mi­rovanja. Stablo može izdržati do -30 °C, a rodni pupovi do -25 °C. Ako je stablo ušlo u zimu sa slabijom kondicijom (suša u protekloj vegetaciji, prevlažna godina bez tople jeseni, preobilan urod, iscrpljenost od napada biljnih namet­nika i si.), onda se mogu smrznuti i na -24 °C. U jesen, u studenom, kada nema zimskog mirovanja, uz temperaturu -15 °C do -17 °C stradavaju debla i račvišta grana. Trešnje žute ili svijetlocrvene boje ploda otpornije su od sorata tamno­crvene i crvene boje ploda, jer im je kora svih vegeta­tivnih organa svjetlija. Pri kretanju vegetacije cvjet­ni pupovi izdrže od -2,8 °C (žute sorte), otvoreni cvje­tovi izdrže od -2 do -3 °C (žute sorte) odnosno samo -1 °C (tamne sorte), zametnuti plodići izdrže -1,2 °C (žute sorte), a na toj temperaturi plodići tamnih sora­ta najvjerojatnije će se smrznuti.</p>
+                <h4>Voda</h4>
+                <p>Dovoljna joj je mala količina vlage u tlu jer njezin korijen ima golemu apsorpcijsku moć. Trešnji je dovoljno oko 500 mm oborina godišnje, osobito ako su te oborine dobro raspoređene. Ne podnosi visoku relativnu vlagu zraka, a pogoduje joj suh zrak. Povećana relativna vlaga zraka potiče na trešnji znatnu pojavu bilj­nih bolesti, a povećane oborine ometaju diferencijaciju (zametanje) cvjetnih pupova, te izazivaju slabu oplodnju, opadanje plodića i pucanje plodova.</p>
+                <h4>Tlo</h4>
+                <p>Trešnji najbolje odgovaraju duboka i rahla, blago kisele, neutralne ili blago alkalne reakcije (pH 5,0 - 7,0), aluvijalna tla, pjeskovite ilovače, posmeđene crvenice, propusni vap­nenci i sl.</p>
+                <h3>Izbor položaja za podizanje nasada</h3>
+                <p>Trešnja traži umjerena zračna strujanja. Ne podnosi jake vjetrove, posebno u doba cvatnje, zato što za jačih vjetrova ne lete pčele, stoga je time umanjena mogućnost oplodnje. Suhi i topli vjetrovi remete vrijeme početka i dinamiku cvatnje (ubrzavaju cvatnju), pa time ometaju kakvoću oplodnje (kraće se podudaraju vremena cvatnje međusobnih oprašivača). Vjetrovi mogu biti i korisni, osobito u kraćim ili dužim kišnim raz­dobljima, kad svojim strujanjem umanjuju štetne posljedice velike relativne vlage zraka ili pak suvišne vlažnosti tla.</p>
+                <p>Trešnja se uspješno uzgaja između 30° i 60° sje­verne širine, na nadmorskoj visini do 1 000 m. Za sigurniji uzgoj trešnje bolje su sjeverne od južnih ekspozicija ako su dovoljno visoke ali i blagi brežulj­ci s blagim padinama.</p>
+                <h3>Priprema tla za sadnju</h3>
+                <p>Dvije godine prije sadnje zasijati višegodišnje leguminoze kao pretkulturu jer one imaju sposobonost vezivanja atmosferskog dušika i obogaćivanje tla istim. Nakon gnojidbe pristupa se rigolanju na dubini od 60 - 100 cm, u zavisnosti od rastresitosti i dubine tla. Rigolanje se vrši dva mjeseca prije sadnje. Nakon toga tlo se potanjura i iskolčavaju se mjesta za sadnju trešanja.</p>
+                <h3>Izbor podloga</h3>
+                <p>Od nekoliko mogućih podloga za trešnju: generativnih - sjemenjak divlje trešnje (Prunus avium) i sjemenjak rašeljke (Prunus mahaleb) ili vegetativnih - Gisela, F12/1 i Colt, preporučuju se sjemenjaci divlje trešnje i mahaleba.</p>
+                <h3>Izbor uzgojnog oblika</h3>
+                <p>Za podizanje nasada trešnje s preporučenim uzgojnim oblikom etažne piramide, visine oko 4,5 m, potrebni su razmaci sadnje 6,3 x 5 m. Međutim, ta prirodna etažna (pršljenasta) piramida u trešnje ima pravilan oblik samo u prvim godinama rasta, a poslije se izobliči i poprimi oblik preokrenute piramide jer je druga etaža u povoljnijem fi­ziološkom položaju od prve etaže, kao štoje treća etaža u povoljnijem položaju od druge etaže i u još povoljnijem položaju od prve. Stoga se preporučuje oblikovanje pravilne etažne piramide trešnje.</p>
+                <h3>Vrijeme i tehnika sadnje</h3>
+                <p>Bolje je voćke saditi u jesen kada je tlo još toplo i vlažno, pa odmah počinje rast korijena. Tijekom prijevoza i skladištenja, sadnice ni u jednom trenutku ne smiju izgubiti vodu. Prije sadnje odstrane se svi oštećeni dijelovi korijena i on se umoći u kašu spravljenu od zemlje i svježega goveđeg gnoja. Za kućne vrtove napogodnije su sorte niskog stabla. Voćke velike krošnje i odgovarajuće visine zahtijevaju razmak od najmanje 10 m. Neke sorte zahtijevaju oprašivače, pa je uvijek potrebno posaditi najmanje dva stabla. Trešnja počinje donositi plodove nakon 6 do 8 godina, a stablo može doživjeti 50-ak i više godina.</p>
+                <p>Iskopa se rupa širine dovoljne da sadnica s korijenom stane u nju. Na korijen se stavlja sloj rahle zemlje debljine 5 - 8 cm koji se dobro nagazi te 20 - 30 kg zrelog stajnjaka. Na stajnjak se opet stavlja zemlja te se oko voćke oblikuje zdjelica za bolje zadržavanje vode. Crta kalema ne smije se zakopati jer bi se spriječio razvoj bazalnog korijena.</p>
+                <h3>Održavanje nasada</h3>
+                <p>U proljeće i prije početka vegetacije dodaje se mineralno gnojivo KAN 27 %. Tretiranje zakorovljenoga zaštitnog pojasa obavlja se 2 - 3 puta u ve­getaciji s 4 - 6 l/ha. Rezidba rodnih stabala obavlja se u razdoblju mirovanja voćki i u doba vegetacije. Međuredni prostor zatravljuje se tek nakon 2-3 godine nakon podizanja nasada. Košnjom (malčiranjem) tratine povećava se sadržaj or­ganske tvari, poboljšavaju fizikalna, kemijska i biološka svojstva tla.</p>
+                <h3>Gnojidba</h3>
+                <p>Važno je da su hranjiva pristupačna u svim razdobljima razvoja, što je slučaj u prozračnim i umjereno vlažnim tlima. Prije podizanja voćnjaka obavlja se kemijska i fizikalna analiza tla, kojom se odredi koncentracija pojedinih hranjiva i reakcija tla, a na temelju nje i količina mineralnih gnojiva i moguća mjera kalcizacije. Ako su fizikalna svojstva nepovoljna poput teških, zbitih i vlažnih tala, potrebno ih je što prije popraviti odgovarajućim agrotehničkim zahvatima. Teška tla bogatija su hranjivima, ali ne odgovaraju ni trešnji ni višnji. Pogodnija su lakša tla, iako sadržavaju manje hranjiva.</p>
+                <p>Dušik je jedan od elemenata koji najviše utječe na rast i izravno na rodnost. Njega voćka djelomice dobiva razgradnjom humusnih tvari, koje smo unijeli stajskim gnojem (ili tresetom) prije sadnje. Zatravljeni voćnjak velik je izvor dušika. Dušik iz mineralnih gnojiva, poput amonij nitrata, uree, amonij sulfata, KAN-a, UAN-a dodajemo tijekom aktivnog rasta u nekoliko obroka (dva do tri puta). Količine unosa ovise o opskrbljenosti tla, starosti drveta, oborinama, prirastu i rodnosti. Pritom moramo znati da je u prvim godinama povećana potreba za tim hranjivom, zbog intenzivnog vegetativnog rasta do konačnog oblikovanja skeleta. Mladim voćkama dodaje se 30 - 40 kg/ha dušika, a starijima u rodnosti 60 - 140 kg/ha.</p>
+                <p>Fosfor je element koji se teže ispire i slabo je pokretan u tlu. Višnje i trešnje u prvim godinama traže 30 kg/ha fosfora, a kasnije tijekom rodnosti 60 - 90 kg/ha. U prvim godinama razvoja potrebe za kalijem iznose 60 kg/ha, a u punoj rodnosti iznosi 150 - 200 kg/ha. Radi čvrstoće plodova, preporučljivo je dodavati kalcij prskanjem kao kalcijev klorid ili kalcijev nitrat u nekoliko navrata tijekom rasta ploda.</p>
+                <h3>Berba</h3>
+                <p>Trešnja se bere kada su plodovi posve zreli. Ako se plodovi žele iskoristiti svježi ne smiju biti prezreli (moraju biti čvrsti i ubrani s peteljkom). To je obično dva do tri dana prije pune zrelosti. Za kvalitetu plodova važna je veličina, boja i postotak crvljivosti plodova. Plodovi se mogu čuvati u hladnjačama i do 30 dana na temperaturi od 0 do 1°C uz relativnu vlažnost zraka od 85 %.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Vlastiti JavaScript -->
+    <script src="../../js/moj_js.js"></script>
+
+</body>
+</html>
